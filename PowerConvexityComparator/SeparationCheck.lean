@@ -1,0 +1,25 @@
+import PowerConvexityComparator.SeparationSolution
+
+namespace PowerConvexityComparator.SeparationCheck
+theorem checkedSeparation : SeparationProblem.SeparationStatement := SeparationSolution.separationAnswer
+end PowerConvexityComparator.SeparationCheck
+
+#print axioms PowerConvexityComparator.SeparationProblem.measurableCN
+#print axioms PowerConvexityComparator.SeparationProblem.borelCN
+#print axioms PowerConvexityComparator.SeparationProblem.Quadratic
+#print axioms PowerConvexityComparator.SeparationProblem.PluriharmonicQuadratic
+#print axioms PowerConvexityComparator.SeparationProblem.energy
+#print axioms PowerConvexityComparator.SeparationProblem.grad
+#print axioms PowerConvexityComparator.SeparationProblem.A
+#print axioms PowerConvexityComparator.SeparationProblem.B
+#print axioms PowerConvexityComparator.SeparationProblem.quotient
+#print axioms PowerConvexityComparator.SeparationProblem.minimumRoot
+#print axioms PowerConvexityComparator.SeparationProblem.SimpleLeastSpectrum
+#print axioms PowerConvexityComparator.SeparationProblem.SeparationStatement
+#print axioms PowerConvexityComparator.SeparationSolution.class_eq
+#print axioms PowerConvexityComparator.SeparationSolution.grad_eq
+#print axioms PowerConvexityComparator.SeparationSolution.A_eq
+#print axioms PowerConvexityComparator.SeparationSolution.B_eq
+#print axioms PowerConvexityComparator.SeparationSolution.quotient_eq
+#print axioms PowerConvexityComparator.SeparationSolution.separationAnswer
+#print axioms PowerConvexityComparator.SeparationCheck.checkedSeparation

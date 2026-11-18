@@ -1,0 +1,19 @@
+import PowerConvexity.C114P05
+import PowerConvexity.Analysis.ActualOriginalDomainBoundaryExpansionFour
+import PowerConvexity.Analysis.ActualHolderResponseFromBoundaryTwo
+import PowerConvexity.Analysis.ActualCofactorHolderResponseDataTwo
+import PowerConvexity.Analysis.ActualContinuousDomainAffinePullbackFour
+import PowerConvexity.Calculus.ActualHolderDeterminantOpennessTwo
+import PowerConvexity.Calculus.ComplexCofactorDivergenceUnconditionalTwo
+import PowerConvexity.Analysis.ActualUniformCofactorDirichletDataFour
+import PowerConvexity.Analysis.ActualUniformRoughGraphQuotientFour
+import PowerConvexity.Analysis.ActualUniformFullHessianFromMixedTwo
+import PowerConvexity.Analysis.ActualUniformClosureMixedModulusFour
+import PowerConvexity.Analysis.ActualUniformBoundaryDerivativeDecayFour
+import PowerConvexity.Analysis.ActualUniformInverseGraphLinearRemainderFour
+import PowerConvexity.Analysis.ActualUniformRescaledTangentialGradientFour
+
+/-! Cumulative C114 P06: the actual original-domain uniform boundary
+expansion is constructed; complete Holder response and genuine determinant
+local solvability are proved. The actual C4 family and its common nonlinear
+boundary Hessian modulus remain open assembly/regularity tasks. -/

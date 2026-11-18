@@ -1,0 +1,11 @@
+import PowerConvexity.C114Complete
+
+#print axioms PowerConvexity.ActualCommonNonlinearBoundaryGeometryFour
+#print axioms PowerConvexity.ActualContinuousDomainLinearDataFour
+#print axioms PowerConvexity.ActualContinuousDomainBoundaryExpansionFour
+#print axioms PowerConvexity.ActualHolderWeakResponseDataTwo
+#print axioms PowerConvexity.ActualFlatQuotientEquationFour
+#print axioms PowerConvexity.ActualFlatSlopeIntervalFour
+#print axioms PowerConvexity.ActualRoughDomainDirichletDataFour
+#print axioms PowerConvexity.actualHolderC2JetSpaceTwo_completeSpace
+#print axioms PowerConvexity.actualHolderLoadSpaceTwo_completeSpace

@@ -1,0 +1,19 @@
+import PowerConvexityComparator.AppendixASolution
+#print axioms PowerConvexityComparator.AppendixAProblem.CN
+#print axioms PowerConvexityComparator.AppendixAProblem.xAxis
+#print axioms PowerConvexityComparator.AppendixAProblem.yAxis
+#print axioms PowerConvexityComparator.AppendixAProblem.mixed
+#print axioms PowerConvexityComparator.AppendixAProblem.pure
+#print axioms PowerConvexityComparator.AppendixAProblem.realMatrix
+#print axioms PowerConvexityComparator.AppendixAProblem.A1Statement
+#print axioms PowerConvexityComparator.AppendixAProblem.A2Statement
+#print axioms PowerConvexityComparator.AppendixASolution.mixed_eq
+#print axioms PowerConvexityComparator.AppendixASolution.pure_eq
+#print axioms PowerConvexityComparator.AppendixASolution.a1Answer
+#print axioms PowerConvexityComparator.AppendixASolution.a2Answer
+namespace PowerConvexityComparator.AppendixACheck
+theorem checkedA1 : AppendixAProblem.A1Statement := AppendixASolution.a1Answer
+theorem checkedA2 : AppendixAProblem.A2Statement := AppendixASolution.a2Answer
+#print axioms checkedA1
+#print axioms checkedA2
+end PowerConvexityComparator.AppendixACheck

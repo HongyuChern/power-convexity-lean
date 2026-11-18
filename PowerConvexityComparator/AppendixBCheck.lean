@@ -1,0 +1,15 @@
+import PowerConvexityComparator.AppendixBSolution
+#print axioms PowerConvexityComparator.AppendixBProblem.CN
+#print axioms PowerConvexityComparator.AppendixBProblem.maximumEigenvalue
+#print axioms PowerConvexityComparator.AppendixBProblem.minimumEigenvalue
+#print axioms PowerConvexityComparator.AppendixBProblem.Conclusion
+#print axioms PowerConvexityComparator.AppendixBProblem.MaximumStatement
+#print axioms PowerConvexityComparator.AppendixBProblem.MinimumStatement
+#print axioms PowerConvexityComparator.AppendixBSolution.maximumAnswer
+#print axioms PowerConvexityComparator.AppendixBSolution.minimumAnswer
+namespace PowerConvexityComparator.AppendixBCheck
+theorem checkedMaximum : AppendixBProblem.MaximumStatement := AppendixBSolution.maximumAnswer
+theorem checkedMinimum : AppendixBProblem.MinimumStatement := AppendixBSolution.minimumAnswer
+#print axioms checkedMaximum
+#print axioms checkedMinimum
+end PowerConvexityComparator.AppendixBCheck

@@ -1,0 +1,2 @@
+import PowerConvexity.C112P164
+import PowerConvexity.Analysis.ActualScalarQuadraticSequenceTwo

@@ -1,0 +1,20 @@
+import PowerConvexity.C114P03
+import PowerConvexity.Calculus.ActualContinuationClosednessFromBoundaryTwo
+import PowerConvexity.Calculus.MinkowskiFixedDomainCompleteC0InverseTwo
+import PowerConvexity.Calculus.MinkowskiFixedDomainC0InverseTwo
+import PowerConvexity.Analysis.ActualCofactorCompleteC0InverseTwo
+import PowerConvexity.Analysis.ActualContinuousHolderClassicalTwo
+import PowerConvexity.Analysis.ActualUniformFlatQuotientIterationFour
+import PowerConvexity.Calculus.MinkowskiCofinalTailBoundaryTwo
+import PowerConvexity.Calculus.ActualHomotheticPowerConvexityLimitTwo
+import PowerConvexity.Calculus.StrongDefiningMinkowskiCurvature
+import PowerConvexity.Calculus.ActualFamilyBoundaryPowerCollar
+import PowerConvexity.Analysis.ActualCompactRegularGraphFamily
+
+/-! C114 P04: actual compact graph family, prescribed-alpha weak Schauder
+regularity, genuine boundary quotient iteration, strongly convex approximating
+domains and same-solution limit, plus explicit conditional nonlinear closedness.
+
+The original nonlinear existence and same-family common-collar positivity
+interfaces remain open. This entry does not assert their construction.
+-/

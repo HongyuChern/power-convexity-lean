@@ -1,0 +1,10 @@
+import PowerConvexityComparator.SeparationUniversalSolution
+
+namespace PowerConvexityComparator.SeparationUniversalCheck
+theorem checkedUniversalSeparation : SeparationUniversalProblem.UniversalSeparationStatement :=
+  SeparationUniversalSolution.universalSeparationAnswer
+end PowerConvexityComparator.SeparationUniversalCheck
+
+#print axioms PowerConvexityComparator.SeparationUniversalProblem.UniversalSeparationStatement
+#print axioms PowerConvexityComparator.SeparationUniversalSolution.universalSeparationAnswer
+#print axioms PowerConvexityComparator.SeparationUniversalCheck.checkedUniversalSeparation

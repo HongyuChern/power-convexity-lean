@@ -1,0 +1,17 @@
+name = "powerConvexity"
+version = "0.1.0"
+defaultTargets = ["PowerConvexity"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "chsStartup"
+git = "https://github.com/HongyuChern/pogorelov-liouville-lean.git"
+rev = "b8d5bcd0bba52f39ec63e5011c9a07eedc52102a"
+
+[[lean_lib]]
+name = "PowerConvexity"
+
+[[lean_lib]]
+name = "PowerConvexityComparator"

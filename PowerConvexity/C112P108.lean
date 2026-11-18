@@ -1,0 +1,2 @@
+import PowerConvexity.C112P107
+import PowerConvexity.Calculus.ActualHessianFromQuadraticApproximationTwo

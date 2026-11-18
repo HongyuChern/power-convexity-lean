@@ -1,0 +1,12 @@
+import PowerConvexityComparator.SigmaSolution
+
+namespace PowerConvexityComparator.SigmaCheck
+theorem checkedSigma : SigmaProblem.SigmaStatement := SigmaSolution.sigmaAnswer
+end PowerConvexityComparator.SigmaCheck
+
+#print axioms PowerConvexityComparator.SigmaProblem.linearized
+#print axioms PowerConvexityComparator.SigmaProblem.SigmaStatement
+#print axioms PowerConvexityComparator.SigmaSolution.mixed_congr_nhds
+#print axioms PowerConvexityComparator.SigmaSolution.linearized_eq
+#print axioms PowerConvexityComparator.SigmaSolution.sigmaAnswer
+#print axioms PowerConvexityComparator.SigmaCheck.checkedSigma

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this formalization."
+title: "Power Convexity for the Complex Monge–Ampère Equation in Lean"
+type: software
+authors:
+  - name: "Power Convexity Lean formalization contributors"
+repository-code: "https://github.com/HongyuChern/power-convexity-lean"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Power Convexity of Solutions to the Complex Monge–Ampère Equation det(u_{īj}) = 1 in Complex Dimension Two"
+  authors:
+    - family-names: Chen
+      given-names: Hongyu
+    - family-names: Hu
+      given-names: Jingchen
+    - family-names: Sheng
+      given-names: Li
+  year: 2026
+  url: "https://arxiv.org/abs/2607.06895v1"

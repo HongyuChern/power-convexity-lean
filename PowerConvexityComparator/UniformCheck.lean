@@ -1,0 +1,10 @@
+import PowerConvexityComparator.UniformSolution
+
+namespace PowerConvexityComparator.UniformCheck
+theorem checkedUniformRobustness : UniformProblem.UniformRobustnessStatement :=
+  UniformSolution.uniformRobustnessAnswer
+end PowerConvexityComparator.UniformCheck
+
+#print axioms PowerConvexityComparator.UniformProblem.UniformRobustnessStatement
+#print axioms PowerConvexityComparator.UniformSolution.uniformRobustnessAnswer
+#print axioms PowerConvexityComparator.UniformCheck.checkedUniformRobustness

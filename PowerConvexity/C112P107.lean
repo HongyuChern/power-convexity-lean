@@ -1,0 +1,2 @@
+import PowerConvexity.C112P106
+import PowerConvexity.Calculus.QuadraticHessianFromValues

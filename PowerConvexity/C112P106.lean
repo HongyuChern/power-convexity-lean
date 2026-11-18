@@ -1,0 +1,2 @@
+import PowerConvexity.C112P105
+import PowerConvexity.Calculus.SmallCMAQuadraticIterationTwo

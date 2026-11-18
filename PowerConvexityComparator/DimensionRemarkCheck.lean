@@ -1,0 +1,15 @@
+import PowerConvexityComparator.DimensionRemarkSolution
+
+namespace PowerConvexityComparator.DimensionRemarkCheck
+theorem checkedScalarIdentity : DimensionRemarkProblem.ScalarIdentityStatement :=
+  DimensionRemarkSolution.scalarIdentityAnswer
+theorem checkedCounterexample : DimensionRemarkProblem.CounterexampleStatement :=
+  DimensionRemarkSolution.counterexampleAnswer
+end PowerConvexityComparator.DimensionRemarkCheck
+
+#print axioms PowerConvexityComparator.DimensionRemarkProblem.ScalarIdentityStatement
+#print axioms PowerConvexityComparator.DimensionRemarkProblem.CounterexampleStatement
+#print axioms PowerConvexityComparator.DimensionRemarkSolution.scalarIdentityAnswer
+#print axioms PowerConvexityComparator.DimensionRemarkSolution.counterexampleAnswer
+#print axioms PowerConvexityComparator.DimensionRemarkCheck.checkedScalarIdentity
+#print axioms PowerConvexityComparator.DimensionRemarkCheck.checkedCounterexample

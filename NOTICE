@@ -1,0 +1,6 @@
+Power Convexity Lean formalization
+Copyright 2026 The Power Convexity Lean formalization contributors.
+
+The repository includes parts adapted from the CHS Lean formalization and
+its De Giorgi development. Attribution and upstream notices are recorded
+in THIRD_PARTY.md and LICENSES/.

@@ -1,0 +1,22 @@
+import PowerConvexityComparator.SupportSolution
+
+namespace PowerConvexityComparator.SupportCheck
+theorem checkedRobustness : SupportProblem.RobustnessStatement := SupportSolution.robustnessAnswer
+theorem checkedTouch : SupportProblem.TouchStatement := SupportSolution.touchAnswer
+theorem checkedStability : SupportProblem.StabilityStatement := SupportSolution.stabilityAnswer
+end PowerConvexityComparator.SupportCheck
+
+#print axioms PowerConvexityComparator.SupportProblem.power
+#print axioms PowerConvexityComparator.SupportProblem.PositiveHessian
+#print axioms PowerConvexityComparator.SupportProblem.RobustnessStatement
+#print axioms PowerConvexityComparator.SupportProblem.discriminant
+#print axioms PowerConvexityComparator.SupportProblem.sigma
+#print axioms PowerConvexityComparator.SupportProblem.TouchStatement
+#print axioms PowerConvexityComparator.SupportProblem.StabilityStatement
+#print axioms PowerConvexityComparator.SupportSolution.robustnessAnswer
+#print axioms PowerConvexityComparator.SupportSolution.sigma_eq
+#print axioms PowerConvexityComparator.SupportSolution.touchAnswer
+#print axioms PowerConvexityComparator.SupportSolution.stabilityAnswer
+#print axioms PowerConvexityComparator.SupportCheck.checkedRobustness
+#print axioms PowerConvexityComparator.SupportCheck.checkedTouch
+#print axioms PowerConvexityComparator.SupportCheck.checkedStability

@@ -1,0 +1,3 @@
+import PowerConvexity.C109
+import PowerConvexity.Analysis.WeakHessianMaximumWithBarrier
+import PowerConvexity.Calculus.DirectionalHessianBoundaryMaximum

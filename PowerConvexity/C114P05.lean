@@ -1,0 +1,19 @@
+import PowerConvexity.C114P04
+import PowerConvexity.Analysis.ActualUniformNormalizedAffineBoundaryGraphsFour
+import PowerConvexity.Analysis.ActualUniformGraphHeightDilationFour
+import PowerConvexity.Analysis.ActualInverseGraphCommonRemainderFour
+import PowerConvexity.Analysis.ActualUniformRescaledDensityHessianHolderTwo
+import PowerConvexity.Analysis.ActualUniformGraphZeroQuotientFour
+import PowerConvexity.Analysis.ActualUniformDefiningTangentialFieldFour
+import PowerConvexity.Analysis.ActualUniformNormalDeterminantModulusTwo
+import PowerConvexity.Analysis.ActualUniformQuotientMixedJetFour
+import PowerConvexity.Analysis.ActualUniformQuotientDerivativeInterpolationFour
+import PowerConvexity.Calculus.ActualHolderResponseClosedGraphTwo
+import PowerConvexity.Analysis.ActualContinuousDomainClosureHolderFour
+import PowerConvexity.Calculus.MinkowskiStrongDefiningActualCollarTwo
+import PowerConvexity.Calculus.ActualHolderBilinearMapTwo
+
+/-! Cumulative verified C114 P05: actual uniform boundary geometry, rough
+quotient modulus and derivative interpolation, complete Holder jet response,
+and the strong-domain same-family collar/exhaustion chain. The actual
+nonlinear family and its common boundary Hessian modulus remain open inputs. -/

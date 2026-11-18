@@ -1,0 +1,28 @@
+{
+  "challenge_module": "PowerConvexityComparator.ReleaseChallenge",
+  "solution_module": "PowerConvexityComparator.ReleaseSolution",
+  "theorem_names": [
+    "PowerConvexityComparator.Targets.main_theorem",
+    "PowerConvexityComparator.Targets.appendix_c",
+    "PowerConvexityComparator.Targets.determinant_identity",
+    "PowerConvexityComparator.Targets.arrow_matrix",
+    "PowerConvexityComparator.Targets.maximum_eigenvalue_derivatives",
+    "PowerConvexityComparator.Targets.minimum_eigenvalue_derivatives",
+    "PowerConvexityComparator.Targets.perturbation_minimizer",
+    "PowerConvexityComparator.Targets.every_perturbation_minimizer",
+    "PowerConvexityComparator.Targets.robustness",
+    "PowerConvexityComparator.Targets.zero_contact",
+    "PowerConvexityComparator.Targets.perturbation_stability",
+    "PowerConvexityComparator.Targets.sigma_estimate",
+    "PowerConvexityComparator.Targets.uniform_robustness",
+    "PowerConvexityComparator.Targets.scalar_algebra",
+    "PowerConvexityComparator.Targets.higher_dimension_algebra"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

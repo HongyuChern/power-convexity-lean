@@ -1,0 +1,15 @@
+import PowerConvexity.C110P06
+import PowerConvexity.Analysis.ParallelCurvatureBounds
+import PowerConvexity.Calculus.ClosureJetDifferentiability
+import PowerConvexity.Calculus.ClassicalBoundaryNormalTwo
+import PowerConvexity.Calculus.ClassicalBoundaryLeviJetTwo
+import PowerConvexity.Calculus.ClosureJetContDiff
+import PowerConvexity.Calculus.ClosureJetBoundaryChart
+import PowerConvexity.Calculus.ActualDomainDeformationTwo
+import PowerConvexity.Calculus.ClassicalDefiningNormalTwo
+import PowerConvexity.Analysis.MinkowskiDistanceBoundaryGraph
+import PowerConvexity.Calculus.ClassicalDefiningLeviTwo
+import PowerConvexity.Calculus.CMAJetsIsometricTransport
+import PowerConvexity.Calculus.MinkowskiQuadraticSpectralMinimumTwo
+
+/-! C111P09: accepted cumulative continuation; original manuscript route still open. -/

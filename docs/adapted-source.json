@@ -1,0 +1,31 @@
+{
+  "upstream": "https://github.com/HongyuChern/pogorelov-liouville-lean",
+  "revision": "b8d5bcd0bba52f39ec63e5011c9a07eedc52102a",
+  "license": "Apache-2.0",
+  "adaptations": [
+    {
+      "file": "PowerConvexity/Calculus/ConstantDensity.lean",
+      "sha256": "a44fd047cec4bea0e7dc5e141f03f6ef9995268b4ab8cbe89a0f0e780a6fd6f1",
+      "upstream_file": "CHS/Calculus/DetOneSecondVariation.lean",
+      "upstream_sha256": "b009f6fa73f1f8bf0c4e42045f164d3b0e984f6d89d29752d3c88f7ab5ae92fc"
+    },
+    {
+      "file": "PowerConvexity/Analysis/FiniteOscillationWithError.lean",
+      "sha256": "c65d339824bda30b2c7446b302a631b8b580ede3723bbdab1a28b1a25a347860",
+      "upstream_file": "CHS/Analysis/FiniteOscillation.lean",
+      "upstream_sha256": "43cd6611d2aef1642d683f7b4d55736c8791e301b4ed003f32603f1f2e888fb9"
+    },
+    {
+      "file": "PowerConvexity/Analysis/ActualZeroTraceBallTransportTwo.lean",
+      "sha256": "9c09fc62cffda2eaede85b2d78c5c194622e534ed280acd8866d5467c280157b",
+      "upstream_file": "DifferentialGeometry/External/DeGiorgi/BallScaling.lean",
+      "upstream_sha256": "bbb59195923d72cc71759939dfb49d292aee7bcbed8cd5969cd1f61bd7fe9a2e"
+    },
+    {
+      "file": "PowerConvexity/Analysis/ActualScalarWeakScalingTwo.lean",
+      "sha256": "26d978ee74c32db0a732816e28df1e18a7ea91edb2262a2ca282ac113ce2b430",
+      "upstream_file": "DifferentialGeometry/External/DeGiorgi/BallScaling.lean",
+      "upstream_sha256": "bbb59195923d72cc71759939dfb49d292aee7bcbed8cd5969cd1f61bd7fe9a2e"
+    }
+  ]
+}

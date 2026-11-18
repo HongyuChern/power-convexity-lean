@@ -1,0 +1,2 @@
+import PowerConvexity.C112P152
+import PowerConvexity.Analysis.ActualCofactorQuadraticResidualTwo
