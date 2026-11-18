@@ -28,7 +28,7 @@ The independent challenge specifies 15 statements using only Mathlib, including 
 
 [Challenge](PowerConvexityComparator/ReleaseChallenge.lean) · [Main statements](PowerConvexityComparator/Problem.lean) · [Main theorem bridge](PowerConvexityComparator/OriginalRoute.lean) · [Solution](PowerConvexityComparator/ReleaseSolution.lean) · [Configuration](PowerConvexityComparator/config.json) · [Targets and reproduction](PowerConvexityComparator/README.md)
 
-The standalone challenge built with Mathlib as its sole direct dependency. On Ubuntu 24.04 ARM64, Lean and Nanoda accepted all 15 proofs under Landrun and systemd. The allowed axioms were `propext`, `Classical.choice`, and `Quot.sound`. [Linux verification receipt](verification/linux-verification.json) · [Paper coverage audit](verification/PaperCoverageAudit.lean)
+The standalone challenge built with Mathlib as its sole direct dependency. On Ubuntu 24.04 ARM64, Lean and Nanoda accepted all 15 proofs under Landrun and systemd on [source commit `d1f6f3a`](https://github.com/HongyuChern/power-convexity-lean/commit/d1f6f3ae0715b36bb1d2ca2a512163c60edf7eb9). The allowed axioms were `propext`, `Classical.choice`, and `Quot.sound`. [Linux verification receipt](https://github.com/HongyuChern/power-convexity-lean/blob/8bc4a3dc83c58f450ee3996aead27c14faa85713/verification/linux-verification.json) · [Paper coverage audit](verification/PaperCoverageAudit.lean)
 
 ## Source and attribution
 
